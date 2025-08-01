@@ -70,13 +70,14 @@ Le modèle **SVC** obtient les meilleures performances avec un **score F1** de *
 
 **Interface utilisateur intuitive**
 
-Analyse exploratoire des données
-Visualisations interactives (nuages de mots, matrices de confusion)
-Test en temps réel du modèle de détection
+**Analyse exploratoire des données**
 
-Fonctionnalités principales :
+  -Visualisations interactives (nuages de mots, matrices de confusion)
+  -Test en temps réel du modèle de détection
 
-Analyse des données : Distribution spam/ham, statistiques descriptives
-Visualisations : Graphiques, nuages de mots, courbes d'apprentissage
-Prédiction : Interface pour tester le modèle sur de nouveaux emails
-Métriques : Matrices de confusion, scores de performance
+**Fonctionnalités principales :**
+
+  -Analyse des données : Distribution spam/ham, statistiques descriptives
+  -Visualisations : Graphiques, nuages de mots, courbes d'apprentissage
+  -Prédiction : Interface pour tester le modèle sur de nouveaux emails
+  -Métriques : Matrices de confusion, scores de performance
