@@ -18,13 +18,11 @@ Ce projet vise à développer un système de classification automatique des emai
 
 ├── scripts/
 
-│ ├── EDA.py # Fpnctions pour l'analyse exploratoire
+│ ├── EDA.py # Fonctions pour l'analyse exploratoire
 
 │ ├── main.ipynb # Fichier principal regroupant l'analyse exploratoire, les modèles et les résultats
 
 │ ├── spam_app.py # Fichier de création d'une application streamlit 
-
-│ └── test.ipynb # Test sur les data pour évaluer le modèle
 
 ├── models/
 
@@ -32,7 +30,7 @@ Ce projet vise à développer un système de classification automatique des emai
 
 └── README.md
 
-  - Jira: 
+  - Jira: https://sarabouabid.atlassian.net/jira/software/projects/SPD/boards/101
  
  ## 🛠️ Technologies Utilisées
 - **Langage**: Python
@@ -47,6 +45,8 @@ Ce projet vise à développer un système de classification automatique des emai
   📝 Méthodologie
 - **Prétraitement** 
   - Nettoyage des valeurs manquantes
+  - Preprocessing (tokenisation , stopwords , stemming)
+  - Vectorisation TFIDF
 
 
 - **Modeles et Optimisation**
@@ -61,4 +61,22 @@ Ce projet vise à développer un système de classification automatique des emai
 |----------------------  |-------        |------- |
 | **SVC**                | 0.988         | 0.988  |
 | Decision Tree          | 0.954         | 0.957  |
-| Multinomial            | 0.980         | 0.980  |
+| Multinomial            | 0.980         | 0.981  |
+
+Le modèle **SVC** obtient les meilleures performances avec un **score F1** de **98.8%** sur les données de test.
+
+## 🎯 Fonctionnalités de l'Application
+### Application Streamlit
+
+**Interface utilisateur intuitive**
+
+Analyse exploratoire des données
+Visualisations interactives (nuages de mots, matrices de confusion)
+Test en temps réel du modèle de détection
+
+Fonctionnalités principales :
+
+Analyse des données : Distribution spam/ham, statistiques descriptives
+Visualisations : Graphiques, nuages de mots, courbes d'apprentissage
+Prédiction : Interface pour tester le modèle sur de nouveaux emails
+Métriques : Matrices de confusion, scores de performance

@@ -78,7 +78,7 @@ def nuage_mots(data,text):
     plt.axis('off')
     plt.title('Nuage de mots - Ham')
 
-    plt.savefig(r'C:\Users\lenovo\Documents\Spam_Detection\plots\nuage_de_mots.png', dpi=300, bbox_inches='tight', quality=100)
+    plt.savefig(r'C:\Users\lenovo\Documents\Spam_Detection\plots\nuage_de_mots.png', dpi=300, bbox_inches='tight')
 
     plt.show()
 

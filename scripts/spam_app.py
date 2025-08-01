@@ -77,7 +77,7 @@ elif app_select=="Résultats":
     |----------------------  |-------        |------- |
     | **SVC**                | 0.988         | 0.988  |
     | Decision Tree          | 0.954         | 0.957  |
-    | Multinomial            | 0.980         | 0.980  |
+    | Multinomial            | 0.980         | 0.981  |
     """)
     
     st.write("""
