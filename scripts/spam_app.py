@@ -91,7 +91,9 @@ elif app_select=="Résultats":
 
 elif app_select== "Prediction" :
     st.title("Détection de Spam ")
-    st.image(r'C:\Users\lenovo\Documents\Spam_Detection\plots\spam.jpg',width=300)
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.image(r'C:\Users\lenovo\Documents\Spam_Detection\plots\spam.jpg', width=300)
 
     @st.cache_resource()
     def load_model():
